@@ -1,7 +1,7 @@
 program perceptron_singleoutput
 parameter(n=4, kx=4)
-integer:: i, j, k, theta, check, yin, yout
-real:: alpha
+integer:: i, j, k, check, yin, yout
+real:: alpha, theta
 integer::x(kx, n), y(kx), w(n+1)
 open(1, file="perceptron1", status="old")
 open(2, file="perceptron1_y", status="old")
