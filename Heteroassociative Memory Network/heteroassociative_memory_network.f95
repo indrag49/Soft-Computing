@@ -56,8 +56,6 @@ do i = 1, ky
 write(5, *) out(i)
 enddo
 
-
-
 end program Heteroassociative_Memory_Network
 
 function f(x)
