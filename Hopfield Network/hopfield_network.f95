@@ -102,7 +102,6 @@ do i = 1, n
 write(6, *) E(i)
 enddo
 
-
 end program Hopfield_Network
 
 function f(z, x)
