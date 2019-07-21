@@ -37,8 +37,6 @@ if (count > 1) then
 goto 4
 endif
 
-
-
 end program Maxnet
 
 function f(x)
