@@ -1,7 +1,7 @@
 program Mexican_Hat_Network
 parameter(n = 7, kx = 2)
-integer :: i, j, k, R(kx), R1, R2, t, tmax = 5
-real :: s(n), C(kx), C1, C2, x(n), s1, s2, s3
+integer :: i, j, k, R(kx), t, tmax = 5
+real :: s(n), C(kx), x(n), s1, s2, s3
 
 open(1, file = "Mexican_hat_external_signal.html", status = "old")
 open(2, file = "Mexican_hat_radii.html", status = "old")
