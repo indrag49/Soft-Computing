@@ -1,7 +1,7 @@
 program KSOFM
 parameter(n = 4, kx = 4, ky = 2)
 integer :: i, j, k, x (n, kx), winning_ind, epoch = 1
-real :: w(n, ky), alpha, s, D(ky)
+real :: w(kx, ky), alpha, s, D(ky)
 
 open(1, file = "kohonen_inputs.html", status = "old")
 open(2, file = "kohonen_learning_rate.html", status = "old")
