@@ -10,6 +10,9 @@ open(4, file = "kohonen_outputs.html", status = "unknown")
 
 do i = 1, n
 read(1, *) (x(i, j), j = 1, kx)
+enddo
+
+do i = 1, kx
 read(3, *) (w(i, j), j = 1, ky)
 enddo
 
